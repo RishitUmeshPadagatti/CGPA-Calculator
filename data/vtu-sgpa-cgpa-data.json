@@ -1,0 +1,414 @@
+{
+  "app": "VTU SGPA CGPA Calculator",
+  "version": 1,
+  "semesters": {
+    "1": {
+      "subjects": [
+        {
+          "id": "1-1",
+          "code": "BMATS101",
+          "name": "Mathematics",
+          "marks": "69",
+          "credits": "4"
+        },
+        {
+          "id": "1-2",
+          "code": "BCHES102",
+          "name": "Chemistry",
+          "marks": "30",
+          "credits": "4"
+        },
+        {
+          "id": "1-3",
+          "code": "BCEDK103",
+          "name": "Computer-Aided Engineering Drawing",
+          "marks": "90",
+          "credits": "3"
+        },
+        {
+          "id": "1-4",
+          "code": "BESCK104C",
+          "name": "Introduction to Electronics Engineering",
+          "marks": "61",
+          "credits": "3"
+        },
+        {
+          "id": "1-5",
+          "code": "BPLCK105B",
+          "name": "Introduction to Python Programming",
+          "marks": "70",
+          "credits": "3"
+        },
+        {
+          "id": "1-6",
+          "code": "BIDTK158",
+          "name": "Innovation and Design Thinking",
+          "marks": "60",
+          "credits": "1"
+        },
+        {
+          "id": "1-7",
+          "code": "BENGK106",
+          "name": "Communicative English",
+          "marks": "70",
+          "credits": "1"
+        },
+        {
+          "id": "1-8",
+          "code": "BICOK107",
+          "name": "Indian Constituion",
+          "marks": "65",
+          "credits": "1"
+        }
+      ]
+    },
+    "2": {
+      "subjects": [
+        {
+          "id": "2-1",
+          "code": "BMATS201",
+          "name": "Mathematics-II for CSE Stream",
+          "marks": "85",
+          "credits": "4"
+        },
+        {
+          "id": "2-2",
+          "code": "BPHYS202",
+          "name": "Applied Physics for CSE Stream",
+          "marks": "87",
+          "credits": "4"
+        },
+        {
+          "id": "2-3",
+          "code": "BPOPS203",
+          "name": "Principles of Programming Using C",
+          "marks": "73",
+          "credits": "3"
+        },
+        {
+          "id": "2-4",
+          "code": "BESCK204D",
+          "name": "Introduction to Mechanical Engineering",
+          "marks": "75",
+          "credits": "3"
+        },
+        {
+          "id": "2-5",
+          "code": "BETCK205H",
+          "name": "Introduction to Internet of Things (IOT)",
+          "marks": "78",
+          "credits": "3"
+        },
+        {
+          "id": "2-6",
+          "code": "BSFHK258",
+          "name": "Scientific Foundations of Health",
+          "marks": "92",
+          "credits": "1"
+        },
+        {
+          "id": "2-7",
+          "code": "BPWSK206",
+          "name": "Professional Writing Skills in English",
+          "marks": "85",
+          "credits": "1"
+        },
+        {
+          "id": "2-8",
+          "code": "BKSKK207",
+          "name": "Samskrutika Kannada",
+          "marks": "82",
+          "credits": "1"
+        },
+        {
+          "id": "2-1788370052268-7htzr",
+          "code": "BCHES102",
+          "name": "Chemistry for CSE Stream",
+          "marks": "65",
+          "credits": "4"
+        }
+      ]
+    },
+    "3": {
+      "subjects": [
+        {
+          "id": "3-1788370334773-33mwl",
+          "code": "BCS301",
+          "name": "Mathematics for Computer Science",
+          "marks": "84",
+          "credits": "4"
+        },
+        {
+          "id": "3-1788370335823-q1dmp",
+          "code": "BCS302",
+          "name": "Digital Design & Computer Organization",
+          "marks": "70",
+          "credits": "4"
+        },
+        {
+          "id": "3-1788370336439-sb9ad",
+          "code": "BCS303",
+          "name": "Operating Systems",
+          "marks": "57",
+          "credits": "4"
+        },
+        {
+          "id": "3-1788370336972-it8qf",
+          "code": "BCS304",
+          "name": "Data Structures and Applications",
+          "marks": "67",
+          "credits": "3"
+        },
+        {
+          "id": "3-1788370337657-2a0i0",
+          "code": "BCSL305",
+          "name": "Data Structures Lab",
+          "marks": "96",
+          "credits": "1"
+        },
+        {
+          "id": "3-1788370338206-ab6hu",
+          "code": "BCS358D",
+          "name": "Data Visualization with Python",
+          "marks": "97",
+          "credits": "1"
+        },
+        {
+          "id": "3-1788370339523-ow6ed",
+          "code": "BCS306A",
+          "name": "Object Oriented Programming with Java",
+          "marks": "0",
+          "credits": "3"
+        },
+        {
+          "id": "3-1788370420173-ec0wl",
+          "code": "BSCK307",
+          "name": "Social Connect and Responsibility",
+          "marks": "93",
+          "credits": "1"
+        },
+        {
+          "id": "3-1788371644109-gcofg",
+          "code": "BNSK359",
+          "name": "National Service Scheme",
+          "marks": "100",
+          "credits": "0"
+        }
+      ]
+    },
+    "4": {
+      "subjects": [
+        {
+          "id": "4-1788371455674-v6w95",
+          "code": "BBOC407",
+          "name": "BIOLOGY FOR COMPUTER ENGINEERS",
+          "marks": "67",
+          "credits": "2"
+        },
+        {
+          "id": "4-1788371456742-r8x69",
+          "code": "BCS401",
+          "name": "ANALYSIS & DESIGN OF ALGORITHMS",
+          "marks": "67",
+          "credits": "3"
+        },
+        {
+          "id": "4-1788371457373-wu0jh",
+          "code": "BCS402",
+          "name": "MICROCONTROLLERS",
+          "marks": "66",
+          "credits": "4"
+        },
+        {
+          "id": "4-1788371458240-oqbk6",
+          "code": "BCS403",
+          "name": "DATABASE MANAGEMENT SYSTEMS",
+          "marks": "64",
+          "credits": "4"
+        },
+        {
+          "id": "4-1788371459624-fmxy6",
+          "code": "BCS405B",
+          "name": "GRAPH THEORY",
+          "marks": "72",
+          "credits": "3"
+        },
+        {
+          "id": "4-1788371460390-wuwrk",
+          "code": "BCSL404",
+          "name": "ANALYSIS & DESIGN OF ALGORITHMS LAB",
+          "marks": "80",
+          "credits": "1"
+        },
+        {
+          "id": "4-1788371461190-g0mou",
+          "code": "BCSL456D",
+          "name": "TECHNICAL WRITING USING LATEX LAB",
+          "marks": "82",
+          "credits": "1"
+        },
+        {
+          "id": "4-1788371461974-wtujh",
+          "code": "BNSK459",
+          "name": "NATIONAL SERVICE SCHEME",
+          "marks": "100",
+          "credits": "0"
+        },
+        {
+          "id": "4-1788371860880-voz3u",
+          "code": "BUHK408",
+          "name": "UNIVERSAL HUMAN VALUES COURSE",
+          "marks": "75",
+          "credits": "1"
+        },
+        {
+          "id": "4-1788371536874-6l5zr",
+          "code": "BCS306A",
+          "name": "Object Oriented Programming with Java",
+          "marks": "74",
+          "credits": "3"
+        }
+      ]
+    },
+    "5": {
+      "subjects": [
+        {
+          "id": "5-1788372190917-yju1i",
+          "code": "BCS501",
+          "name": "SOFTWARE ENGINEERING AND PROJECT MANAGEMENT",
+          "marks": "63",
+          "credits": "3"
+        },
+        {
+          "id": "5-1788372192133-midap",
+          "code": "BCS502",
+          "name": "COMPUTER NETWORKS",
+          "marks": "69",
+          "credits": "4"
+        },
+        {
+          "id": "5-1788372192750-7ijeo",
+          "code": "BCS503",
+          "name": "THEORY OF COMPUTATION",
+          "marks": "84",
+          "credits": "4"
+        },
+        {
+          "id": "5-1788372193383-dmkj1",
+          "code": "BCS508",
+          "name": "ENVIRONMENTAL STUDIES AND E-WASTE MANAGEMENT",
+          "marks": "76",
+          "credits": "2"
+        },
+        {
+          "id": "5-1788372194134-sna5r",
+          "code": "BCS515B",
+          "name": "ARTIFICIAL INTELLIGENCE",
+          "marks": "60",
+          "credits": "3"
+        },
+        {
+          "id": "5-1788372194917-jdg31",
+          "code": "BCS586",
+          "name": "MINI PROJECT",
+          "marks": "95",
+          "credits": "2"
+        },
+        {
+          "id": "5-1788372196051-53s70",
+          "code": "BCSL504",
+          "name": "WEB TECHNOLOGY LAB",
+          "marks": "98",
+          "credits": "1"
+        },
+        {
+          "id": "5-1788372196700-aa9a3",
+          "code": "BNSK559",
+          "name": "NATIONAL SERVICE SCHEME",
+          "marks": "100",
+          "credits": "0"
+        },
+        {
+          "id": "5-1788372278584-p5l3p",
+          "code": "BRMK557",
+          "name": "RESEARCH METHODOLOGY AND IPR",
+          "marks": "72",
+          "credits": "3"
+        }
+      ]
+    },
+    "6": {
+      "subjects": [
+        {
+          "id": "6-1788372486004-yflsq",
+          "code": "BNSK658",
+          "name": "NATIONAL SERVICE SCHEME",
+          "marks": "100",
+          "credits": "0"
+        },
+        {
+          "id": "6-1788372487289-uy6y3",
+          "code": "BIKS609",
+          "name": "INDIAN KNOWLEDGE SYSTEM",
+          "marks": "86",
+          "credits": "0"
+        },
+        {
+          "id": "6-1788372488004-ljd2i",
+          "code": "BCS601",
+          "name": "CLOUD COMPUTING",
+          "marks": "71",
+          "credits": "4"
+        },
+        {
+          "id": "6-1788372488571-drygx",
+          "code": "BCS602",
+          "name": "MACHINE LEARNING",
+          "marks": "58",
+          "credits": "4"
+        },
+        {
+          "id": "6-1788372489237-4qczc",
+          "code": "BCS685",
+          "name": "PROJECT PHASE I",
+          "marks": "98",
+          "credits": "2"
+        },
+        {
+          "id": "6-1788372489854-wwmnd",
+          "code": "BCSL606",
+          "name": "MACHINE LEARNING LAB",
+          "marks": "89",
+          "credits": "1"
+        },
+        {
+          "id": "6-1788372490621-u4c52",
+          "code": "BME654B",
+          "name": "RENEWABLE ENERGY POWER PLANTS",
+          "marks": "81",
+          "credits": "3"
+        },
+        {
+          "id": "6-1788372491621-1ju4z",
+          "code": "BAIL657C",
+          "name": "GENERATIVE AI",
+          "marks": "90",
+          "credits": "3"
+        },
+        {
+          "id": "6-1788372492788-aa2tr",
+          "code": "BCS613D",
+          "name": "ADVANCED JAVA",
+          "marks": "76",
+          "credits": "3"
+        }
+      ]
+    },
+    "7": {
+      "subjects": []
+    },
+    "8": {
+      "subjects": []
+    }
+  }
+}
