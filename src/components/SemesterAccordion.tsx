@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, Plus, Trash } from 'lucide-react';
 import type { CalculatedSemester } from '../types/calculator';
+import { formatGrade } from '../utils/format';
 import { SubjectRow } from './SubjectRow';
 
 interface SemesterAccordionProps {
@@ -114,7 +115,7 @@ export const SemesterAccordion: React.FC<SemesterAccordionProps> = ({
           <div className="stat-item highlight">
             <span className="stat-label">SGPA:</span>
             <span className="stat-value">
-              {semester.sgpa !== null ? semester.sgpa.toFixed(2) : 'N/A'}
+              {semester.sgpa !== null ? formatGrade(semester.sgpa) : 'N/A'}
             </span>
           </div>
         </div>
@@ -213,7 +214,7 @@ export const SemesterAccordion: React.FC<SemesterAccordionProps> = ({
             </div>
             <div className="summary-block highlight">
               <span>SGPA: </span>
-              <strong>{semester.sgpa !== null ? semester.sgpa.toFixed(2) : '—'}</strong>
+              <strong>{semester.sgpa !== null ? formatGrade(semester.sgpa) : '—'}</strong>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import type { SemesterSummary } from '../types/calculator';
 import { Info } from 'lucide-react';
+import { formatGrade } from '../utils/format';
 
 interface CGPASummaryTableProps {
   summaries: SemesterSummary[];
@@ -37,14 +38,14 @@ export const CGPASummaryTable: React.FC<CGPASummaryTableProps> = ({ summaries, v
                 <td className="text-right">{sem.isValid ? sem.totalCredits : '—'}</td>
                 <td className="text-right">
                   {sem.sgpa !== null ? (
-                    <span className="badge badge-sgpa">{sem.sgpa.toFixed(2)}</span>
+                    <span className="badge badge-sgpa">{formatGrade(sem.sgpa)}</span>
                   ) : (
                     '—'
                   )}
                 </td>
                 <td className="text-right">
                   {sem.cumulativeCGPA !== null ? (
-                    <span className="badge badge-cgpa">{sem.cumulativeCGPA.toFixed(2)}</span>
+                    <span className="badge badge-cgpa">{formatGrade(sem.cumulativeCGPA)}</span>
                   ) : (
                     '—'
                   )}

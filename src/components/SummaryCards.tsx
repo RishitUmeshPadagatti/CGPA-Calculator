@@ -2,6 +2,8 @@ import React from 'react';
 import { Award, BookOpen, Layers, AlertCircle } from 'lucide-react';
 import type { CGPAResult } from '../types/calculator';
 
+import { formatGrade } from '../utils/format';
+
 interface SummaryCardsProps {
   cgpaResult: CGPAResult;
   activeBacklogs: number;
@@ -19,7 +21,7 @@ export const SummaryCards: React.FC<SummaryCardsProps> = ({ cgpaResult, activeBa
         <div className="card-content">
           <span className="card-label">Cumulative CGPA</span>
           <div className="card-value">
-            {cgpa !== null ? cgpa.toFixed(2) : '—'}
+            {cgpa !== null ? formatGrade(cgpa) : '—'}
           </div>
           <span className="card-subtext">
             {cgpa !== null

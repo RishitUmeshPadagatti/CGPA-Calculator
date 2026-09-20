@@ -2,6 +2,8 @@ import React from 'react';
 import { Award, CheckCircle, AlertCircle } from 'lucide-react';
 import type { CGPAResult } from '../types/calculator';
 
+import { formatGrade } from '../utils/format';
+
 interface FinalCGPABannerProps {
   cgpaResult: CGPAResult;
 }
@@ -18,7 +20,7 @@ export const FinalCGPABanner: React.FC<FinalCGPABannerProps> = ({ cgpaResult }) 
         <div className="banner-text">
           <span className="banner-label">FINAL CGPA</span>
           <h2 className="banner-value">
-            {cgpa !== null ? cgpa.toFixed(2) : 'N/A'}
+            {cgpa !== null ? formatGrade(cgpa) : 'N/A'}
           </h2>
           <p className="banner-subtext">
             {cgpa !== null ? (

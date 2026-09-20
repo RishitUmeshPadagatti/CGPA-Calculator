@@ -17,6 +17,7 @@ import { SummaryCards } from './components/SummaryCards';
 import { CGPASummaryTable } from './components/CGPASummaryTable';
 import { SemesterAccordion } from './components/SemesterAccordion';
 import { FinalCGPABanner } from './components/FinalCGPABanner';
+import { CGPAEstimator } from './components/CGPAEstimator';
 import { Modal } from './components/Modal';
 
 export function App() {
@@ -247,6 +248,9 @@ export function App() {
             ))}
           </div>
         </section>
+
+        {/* Final CGPA Estimator */}
+        <CGPAEstimator cgpaResult={cgpaResult} />
 
         {/* Final CGPA Banner at Bottom */}
         <FinalCGPABanner cgpaResult={cgpaResult} />
